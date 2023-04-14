@@ -16,10 +16,10 @@ def detectCycle(graph):
     return False
 
 graph = [
-    [1, 2],
+    [],
     [2],
-    [0, 3],
-    [3]
+    [1, 3],
+    [2]
 ]
 
 print(detectCycle(graph))
