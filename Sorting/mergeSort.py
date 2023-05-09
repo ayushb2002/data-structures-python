@@ -2,7 +2,7 @@ def mergeSort(arr):
     if len(arr) == 1:
         return arr
     
-    breakPoint = int(len(arr)/2)
+    breakPoint = len(arr) // 2
     left = mergeSort(arr[:breakPoint])
     right = mergeSort(arr[breakPoint:])
     
